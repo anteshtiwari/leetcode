@@ -16,7 +16,7 @@ public:
         effort[0][0] = 0;  // Initial effort at the starting cell
 
         while (!pq.empty()) {
-            auto current = pq.top().second;
+            pair<int,int> current = pq.top().second;
             int cost = -pq.top().first;  // Effort for the current cell
             pq.pop();
 
