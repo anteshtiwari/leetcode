@@ -14,11 +14,7 @@ public:
             else if(c>v[i] && c<v[i+1])
                 ans++;
          
-            for(int j=0; j<n; j++){
-           
-            
-            
-            }
+        
         }
         return ans;
     }
