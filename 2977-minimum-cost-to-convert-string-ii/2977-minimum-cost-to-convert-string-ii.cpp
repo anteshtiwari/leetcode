@@ -11,7 +11,7 @@ public:
         return sum;
     }
 
-    long long minimumCost(string sourceStr, string targetStr, vector<string>& originalStrList,vector<string>& changedStrList, vector<int>& costList) {
+    long long minimumCost(string sourceStr, string targetStr, vector<string>& originalStrList,vector<string>& changedStrList, vector<int>& costList) { 
          unordered_map<int, int> hashToIndex;
         int index = 0;
         int visitedArray[1005];
